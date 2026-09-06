@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Shao"
+    given-names: "Shoupeng"
+title: "Gn: A Pathogenesis Analysis Framework for 30 Core Problems in the AI Industry with Correspondences to Classical Chinese Medical Formulas"
+version: 2.16
+date-released: "2026-08-28"
+url: "https://gitee.com/mofahuizhang/Gn"
+license:
+  - "CC-BY-NC-4.0"
+abstract: "Gn (大模型篇) is an unprecedented interdisciplinary theoretical experiment that systematically maps the pathogenesis analysis system, syndrome differentiation methodology, and classical formula library accumulated over two thousand years of Chinese medicine to 30 core problems in the AI large model industry. Built on the A1 axiom of M-F coupling (Model-Feedback coupling as the engineering implementation of form-spirit mapping), Gn constructs a three-discipline framework: Pathology (failure classification + rollback boundary determination with four-question decision tree + rollback recovery rate R(t0)), Nurturing Studies (17 subsections, 407 lines, covering model training and capability development including bianzheng/eight methods/inspection/differentiation/audit), and Transition Studies (P_max elevation + architectural qualitative change + scaling law residual/E_eff jump/transfer rate T quantitative criteria + 12 transition cases + 5 emergence phenomena). The framework includes a Pharmacopoeia Volume (20 classical formulas with 36 detailed formula-meaning analyses and AI engineering implementation plans), systematic pathogenesis analysis of 30 AI industry problems across six dimensions (model/training/architecture/product/industry/ecosystem), and migration of 7 core mechanisms from ABAF (dual-face/account/virtue-position matching/layered accumulation chain/reference line/dynamics/evaluation posture). The G-layer concept originates from the G (knowledge graph layer) in nACGD's ACGD eight-dimensional cognitive closed-loop, but has developed into an independent pathogenesis analysis system with its own A1 axiom, Gn coordinate system, and three-discipline framework."
+keywords:
+  - "AI industry"
+  - "large language models"
+  - "pathogenesis analysis"
+  - "Chinese medicine"
+  - "M-F coupling"
+  - "form-spirit mapping"
+  - "model training"
+  - "capability development"
+  - "architectural transition"
+  - "scaling law"
+  - "rollback determination"
+  - "pharmacopoeia"
+  - "syndrome differentiation"
+  - "interdisciplinary theory"
+  - "AI governance"
+  - "model evaluation"
