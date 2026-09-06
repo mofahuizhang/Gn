@@ -14,7 +14,7 @@
 
 它不是"用中医比喻AI"的通俗科普，而是一套**有独立公理公设、有四层主坐标、有三学框架、有病机分类、有辨证推演、有验证边界**的完整理论体系。从中医内核出发，Gn已经完成了三个方向的深度展开：
 
-1. **医学体系**（v6.5）：将中医理论现代化、结构化，覆盖肿瘤、多模态EB、气血动态诊疗、跨传统医学映射、中医流派消化等专题
+1. **医学体系**（v6.5）：将中医理论现代化、结构化，覆盖肿瘤、气血动态诊疗、跨传统医学映射、中医流派消化等专题
 2. **大模型篇**（v2.17）：将病机分析方法系统映射到AI产业30个核心难题，对应20方36说药典卷
 3. **行业推演**（v1）：以中医药行业25项核心问题为对象，分五专题进行结构化回应与验证边界界定
 
@@ -52,7 +52,7 @@ Gn不是零散的观点集合，而是有严格公理基础的理论体系：
 
 Gn不是只在一个领域做浅尝辄止的应用，而是在**医学和AI两个领域都做了深度展开**：
 
-- **医学体系 v6.5**（160KB主文档+肿瘤篇62KB+多模态EB33KB+3个附录59KB+汇总13KB）：完整的中医现代化体系
+- **医学体系 v6.5**（160KB主文档+肿瘤篇62KB+3个附录59KB+汇总13KB）：完整的中医现代化体系
 - **大模型篇 v2.17**（250KB）：AI产业30题病机分析+20方36说药典卷+ABAF机制迁移7机制
 
 ### 5. 验证边界清晰：不把"能够描述"写成"已经解决"
@@ -85,7 +85,6 @@ Gn 通用病机分析框架
 ├── 【医学】P1 Gn医学体系 v6.5（327KB，7个文档）
 │   ├── Gn医学体系_v6.5.md（160KB）—— 主文档
 │   ├── Gn医学肿瘤篇_v1.0.md（62KB）—— 肿瘤专题
-│   ├── 多模态EB体系.md（33KB）—— 多模态能量-物质体系
 │   ├── 附录A_气血动态诊疗.md（13KB）
 │   ├── 附录B_跨传统医学能量原语映射.md（22KB）
 │   ├── 附录D_中医流派Gn消化.md（24KB）
@@ -125,7 +124,6 @@ Gn 通用病机分析框架
 |---|---|---|
 | [docs/medical/Gn-medical-v6.5.md](docs/medical/Gn-medical-v6.5.md) | 160KB | Gn医学体系主文档 v6.5 |
 | [docs/medical/Gn-medical-oncology-v1.0.md](docs/medical/Gn-medical-oncology-v1.0.md) | 62KB | Gn医学肿瘤篇 v1.0 |
-| [docs/medical/Gn-multimodal-EB.md](docs/medical/Gn-multimodal-EB.md) | 33KB | 多模态EB（能量-物质）体系 |
 | [docs/medical/appendix-A-qi-blood-dynamic.md](docs/medical/appendix-A-qi-blood-dynamic.md) | 13KB | 附录A：气血动态诊疗 |
 | [docs/medical/appendix-B-cross-traditional-medicine.md](docs/medical/appendix-B-cross-traditional-medicine.md) | 22KB | 附录B：跨传统医学能量原语映射 |
 | [docs/medical/appendix-D-tcm-schools.md](docs/medical/appendix-D-tcm-schools.md) | 24KB | 附录D：中医流派Gn消化 |
@@ -201,7 +199,7 @@ Gn医学体系已获著作权登记（**国作登字-2026-A-00178254**）；本�
 
 ### A2 四层主坐标最优性
 
-以L1-L4作为开放复杂系统的全局主坐标，各层可以继续用Ln.x细分。v2.16证明了主坐标数k=4为最优。
+以L1-L4作为开放复杂系统的全局主坐标，各层可以继续用Ln.x细分。v2.16提出了主坐标数k=4为最优的论证。
 
 | 坐标层 | 医学对应 | AI对应 |
 |---|---|---|
@@ -255,7 +253,6 @@ Gn/
 │   ├── medical/                           # P1 医学层
 │   │   ├── Gn-medical-v6.5.md
 │   │   ├── Gn-medical-oncology-v1.0.md
-│   │   ├── Gn-multimodal-EB.md
 │   │   ├── appendix-A-qi-blood-dynamic.md
 │   │   ├── appendix-B-cross-traditional-medicine.md
 │   │   ├── appendix-D-tcm-schools.md
