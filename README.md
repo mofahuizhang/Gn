@@ -2,8 +2,8 @@
 
 **从中医内核到AI产业：一套跨域的病机分析、辨证推演与验证边界体系**
 
-> **当前版本**：内核 v2.4 ｜ 医学体系 v6.5 ｜ 大模型篇 v2.17 ｜ 推演篇 v1
-> **文档规模**：18个文档，约985KB，覆盖内核公理→医学应用→AI产业→行业推演全链路
+> **当前版本**：内核 v2.4 ｜ 医学体系 v6.21 ｜ 肿瘤篇 v1.4 ｜ 大模型篇 v2.17 ｜ 推演篇 v1
+> **文档规模**：26 个文档，约 1.5MB，覆盖内核公理→医学应用→AI产业→行业推演全链路
 > **许可证**：CC BY-NC 4.0 + 商业授权双授权
 
 ---
@@ -14,7 +14,7 @@
 
 它不是"用中医比喻AI"的通俗科普，而是一套**有独立公理公设、有四层主坐标、有三学框架、有病机分类、有辨证推演、有验证边界**的完整理论体系。从中医内核出发，Gn已经完成了三个方向的深度展开：
 
-1. **医学体系**（v6.5）：将中医理论现代化、结构化，覆盖肿瘤、气血动态诊疗、跨传统医学映射、中医流派消化等专题
+1. **医学体系**（v6.21）：将中医理论现代化、结构化，覆盖肿瘤、气血动态诊疗、跨传统医学映射、中医流派消化、三阴三阳随文释义等专题
 2. **大模型篇**（v2.17）：将病机分析方法系统映射到AI产业30个核心难题，对应20方36说药典卷
 3. **行业推演**（v1）：以中医药行业25项核心问题为对象，分五专题进行结构化回应与验证边界界定
 
@@ -82,13 +82,16 @@ Gn 通用病机分析框架
 │   ├── 取象—比对—矫正流程
 │   └── ACGD 闭环
 │
-├── 【医学】P1 Gn医学体系 v6.5（327KB，7个文档）
-│   ├── Gn医学体系_v6.5.md（160KB）—— 主文档
-│   ├── Gn医学肿瘤篇_v1.0.md（62KB）—— 肿瘤专题
-│   ├── 附录A_气血动态诊疗.md（13KB）
-│   ├── 附录B_跨传统医学能量原语映射.md（22KB）
-│   ├── 附录D_中医流派Gn消化.md（24KB）
-│   └── Gn医学体系_内容汇总.md（13KB）
+├── 【医学】P1 Gn医学体系 v6.21
+│   ├── Gn-medical-v6.21.md —— 主文档（v6.21）
+│   ├── Gn-medical-oncology-v1.4.md —— 肿瘤专题（v1.4）
+│   ├── 附录A/B/D —— 气血动态诊疗／跨传统医学映射／中医流派消化（既有附录，暂未随本轮更新）
+│   └── Gn-medical-summary.md —— 内容汇总
+│
+├── 【专题与对表】docs/topics/
+│   ├── 三阴三阳随文释义（v0.1／v0.2）
+│   ├── 对表：论文线六篇／十四篇、辨证施治思维链显式还原（v0.1／v0.2）
+│   └── 方案：Gn概念体系与概念矩阵（备裁 v0.1）
 │
 ├── 【AI】P2 Gn大模型篇 v2.17（250KB）
 │   ├── A1公设：M-F耦合（模型-反馈耦合=形神映射的工程化实现）
@@ -120,14 +123,30 @@ Gn 通用病机分析框架
 
 ### 医学层（P1）
 
-| 文档 | 大小 | 说明 |
-|---|---|---|
-| [docs/medical/Gn-medical-v6.5.md](docs/medical/Gn-medical-v6.5.md) | 160KB | Gn医学体系主文档 v6.5 |
-| [docs/medical/Gn-medical-oncology-v1.0.md](docs/medical/Gn-medical-oncology-v1.0.md) | 62KB | Gn医学肿瘤篇 v1.0 |
-| [docs/medical/appendix-A-qi-blood-dynamic.md](docs/medical/appendix-A-qi-blood-dynamic.md) | 13KB | 附录A：气血动态诊疗 |
-| [docs/medical/appendix-B-cross-traditional-medicine.md](docs/medical/appendix-B-cross-traditional-medicine.md) | 22KB | 附录B：跨传统医学能量原语映射 |
-| [docs/medical/appendix-D-tcm-schools.md](docs/medical/appendix-D-tcm-schools.md) | 24KB | 附录D：中医流派Gn消化 |
-| [docs/medical/Gn-medical-summary.md](docs/medical/Gn-medical-summary.md) | 13KB | Gn医学体系内容汇总 |
+| 文档 | 说明 |
+|---|---|
+| [docs/medical/Gn-medical-v6.21.md](docs/medical/Gn-medical-v6.21.md) | Gn医学体系主文档 v6.21（最新生效件） |
+| [docs/medical/Gn-medical-oncology-v1.4.md](docs/medical/Gn-medical-oncology-v1.4.md) | Gn医学肿瘤篇 v1.4 |
+| [docs/medical/Gn-medical-summary.md](docs/medical/Gn-medical-summary.md) | Gn医学体系内容汇总 |
+| [docs/medical/appendix-A-qi-blood-dynamic.md](docs/medical/appendix-A-qi-blood-dynamic.md) | 附录A：气血动态诊疗（既有，未随本轮更新） |
+| [docs/medical/appendix-B-cross-traditional-medicine.md](docs/medical/appendix-B-cross-traditional-medicine.md) | 附录B：跨传统医学能量原语映射（既有，未随本轮更新） |
+| [docs/medical/appendix-D-tcm-schools.md](docs/medical/appendix-D-tcm-schools.md) | 附录D：中医流派Gn消化（既有，未随本轮更新） |
+| [docs/medical/Gn-medical-v6.5.md](docs/medical/Gn-medical-v6.5.md) | 主文档 v6.5（历史版本，保留参考） |
+| [docs/medical/Gn-medical-oncology-v1.0.md](docs/medical/Gn-medical-oncology-v1.0.md) | 肿瘤篇 v1.0（历史版本，保留参考） |
+
+### 专题与对表（docs/topics）
+
+> 附带的专题、对表与方案件；其中三阴三阳专题自述为**登记件／工作件，不属 Gn 体系生效件**，凡与现行件有出入以现行件为准。
+
+| 文档 | 说明 |
+|---|---|
+| [docs/topics/Gn-sanyinyang-v0.2.md](docs/topics/Gn-sanyinyang-v0.2.md) | 专题：三阴三阳 · 随文释义读法 v0.2（最新，2026-10-29） |
+| [docs/topics/Gn-sanyinyang-v0.1.md](docs/topics/Gn-sanyinyang-v0.1.md) | 同上 v0.1（历史版本） |
+| [docs/topics/Gn-thesis-6-v0.1.md](docs/topics/Gn-thesis-6-v0.1.md) | 对表：论文线六篇 |
+| [docs/topics/Gn-thesis-14-v0.1.md](docs/topics/Gn-thesis-14-v0.1.md) | 对表：论文线十四篇 |
+| [docs/topics/Gn-deduction-restore-v0.2.md](docs/topics/Gn-deduction-restore-v0.2.md) | 对表：辨证施治思维链显式还原 v0.2 |
+| [docs/topics/Gn-deduction-restore-v0.1.md](docs/topics/Gn-deduction-restore-v0.1.md) | 同上 v0.1（历史版本） |
+| [docs/topics/Gn-concept-matrix-proposal-v0.1.md](docs/topics/Gn-concept-matrix-proposal-v0.1.md) | 方案：Gn概念体系与概念矩阵（备裁） |
 
 ### AI层（P2）
 
@@ -251,12 +270,22 @@ Gn/
 │   ├── core/                              # P3 内核层
 │   │   └── Gn-core-axioms-v2.4.md
 │   ├── medical/                           # P1 医学层
-│   │   ├── Gn-medical-v6.5.md
-│   │   ├── Gn-medical-oncology-v1.0.md
+│   │   ├── Gn-medical-v6.21.md            ← 主文档最新生效件
+│   │   ├── Gn-medical-oncology-v1.4.md    ← 肿瘤篇最新版
+│   │   ├── Gn-medical-summary.md
 │   │   ├── appendix-A-qi-blood-dynamic.md
 │   │   ├── appendix-B-cross-traditional-medicine.md
 │   │   ├── appendix-D-tcm-schools.md
-│   │   └── Gn-medical-summary.md
+│   │   ├── Gn-medical-v6.5.md             # 历史版本
+│   │   └── Gn-medical-oncology-v1.0.md    # 历史版本
+│   ├── topics/                            # 专题／对表／方案件
+│   │   ├── Gn-sanyinyang-v0.2.md          ← 三阴三阳随文释义（工作件，非生效件）
+│   │   ├── Gn-sanyinyang-v0.1.md
+│   │   ├── Gn-thesis-6-v0.1.md
+│   │   ├── Gn-thesis-14-v0.1.md
+│   │   ├── Gn-deduction-restore-v0.2.md
+│   │   ├── Gn-deduction-restore-v0.1.md
+│   │   └── Gn-concept-matrix-proposal-v0.1.md
 │   ├── ai/                                # P2 AI层
 │   │   └── Gn-llm-v2.17.md
 │   ├── deduction/                         # P4 推演层
@@ -279,6 +308,8 @@ Gn/
 
 | 版本 | 日期 | 主题 | 核心变更 |
 |---|---|---|---|
+| **v6.21** | 10-28 | 医学体系现行件 | §8.1.1 边界两条（太阴两读改记、不以条文频数反推层级主落位）；v6.20 收「随文释义」入主文档 §1.2.4 |
+| v1.4 | 10-16 | 肿瘤篇 | 承接主文档 12.4，肿瘤多起源 19 型 5 簇＋隐喻层＋三案例验证 |
 | **v2.17** | 09-06 | 四部分体系完整发布 | 内核v2.4+医学v6.5+大模型v2.17+推演v1，18个文档约985KB |
 | v2.16 | 08-28 | 四层主坐标最优性对齐 | 主坐标数k=4最优+层内细分Ln.x分离 |
 | v2.15 | 08-19 | FM范式整理 | 机制总编号+三类分法+依赖无环+锚定登记 |
